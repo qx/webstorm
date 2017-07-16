@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="rg" value="var Global = require(&quot;Global&quot;);&#10;" description="require global" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
