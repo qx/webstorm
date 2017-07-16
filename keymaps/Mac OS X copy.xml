@@ -105,6 +105,9 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="SyncSettings">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="s" />
+  </action>
   <action id="Vcs.UpdateProject" />
   <action id="VimWindowLeft">
     <keyboard-shortcut first-keystroke="alt h" />
