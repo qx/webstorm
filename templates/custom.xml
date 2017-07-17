@@ -1,5 +1,5 @@
 <templateSet group="custom">
-  <template name="cl" value="cc.log($MODE$+&quot;:=======&gt; &quot;+$MESSAGE$)" description="cc.log" toReformat="false" toShortenFQNames="true">
+  <template name="cl" value="cc.log(&quot;$MODE$ :=======&gt; &quot;+$MESSAGE$)" description="cc.log" toReformat="false" toShortenFQNames="true">
     <variable name="MODE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
