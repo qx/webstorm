@@ -12,4 +12,16 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="cnt" value="cc.vv.utils.not_null($object$)" description="object is not null" toReformat="false" toShortenFQNames="true">
+    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ca" value="$object$ === undefined || $object$ === null" description="standar not null" toReformat="false" toShortenFQNames="true">
+    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
