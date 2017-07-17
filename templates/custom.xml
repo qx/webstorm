@@ -24,4 +24,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ob" value="Object.is($object1$,null)" toReformat="false" toShortenFQNames="true">
+    <variable name="object1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
