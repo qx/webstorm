@@ -1,6 +1,5 @@
 <templateSet group="custom">
-  <template name="cl" value="cc.log(&quot;$MODE$ :=======&gt; &quot;+JSON.stringify($MESSAGE$))" description="cc.log" toReformat="false" toShortenFQNames="true">
-    <variable name="MODE" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="cl" value="cc.log(&quot;oyqx :=======&gt; &quot;+JSON.stringify($MESSAGE$))" description="cc.log" toReformat="false" toShortenFQNames="true">
     <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
