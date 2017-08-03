@@ -29,7 +29,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="col" value="logger.info(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$));" description="console.log" toReformat="false" toShortenFQNames="true">
+  <template name="col" value="logger.info(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$));" description="logger.info" toReformat="false" toShortenFQNames="true">
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -38,6 +38,12 @@
   <template name="cvn" value=" cc.vv.net.send(&quot;$huanpai$&quot;,$data$);" description="send socket request" toReformat="false" toShortenFQNames="true">
     <variable name="huanpai" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="data" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="conl" value="console.log(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$));" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
