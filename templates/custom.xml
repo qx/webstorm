@@ -1,6 +1,5 @@
 <templateSet group="custom">
-  <template name="cl" value="cc.log(&quot;$MODE$ :=======&gt; &quot;+$MESSAGE$)" description="cc.log" toReformat="false" toShortenFQNames="true">
-    <variable name="MODE" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="cl" value="cc.log(&quot;oyqx :=======&gt; &quot;+JSON.stringify($MESSAGE$))" description="cc.log" toReformat="false" toShortenFQNames="true">
     <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -26,6 +25,25 @@
   </template>
   <template name="ob" value="Object.is($object1$,null)" description="" toReformat="false" toShortenFQNames="true">
     <variable name="object1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="col" value="logger.info(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$));" description="logger.info" toReformat="false" toShortenFQNames="true">
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cvn" value=" cc.vv.net.send(&quot;$huanpai$&quot;,$data$);" description="send socket request" toReformat="false" toShortenFQNames="true">
+    <variable name="huanpai" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="data" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="conl" value="console.log(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$));" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
