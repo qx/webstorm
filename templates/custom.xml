@@ -24,4 +24,34 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="mli" value="log.info($p$);" description="mylog console" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mld" value="log.debug($p$);" description="mylog console debug" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mlt" value="log.trace($p$);" description="mylog console trace" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mlw" value="log.warn($p$);" description="mylog console warn" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mle" value="log.error($p$);" description="mylog console error" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
