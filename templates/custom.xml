@@ -54,4 +54,16 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ifn" value="if !$pa$ and $pa$ != 0 and $pa$ != &quot;&quot;" description="if null condition" toReformat="false" toShortenFQNames="true">
+    <variable name="pa" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="ifnn" value="if $pa$ or $pa$ == 0 or $pa$ == &quot;&quot;" description="if not null condition" toReformat="false" toShortenFQNames="true">
+    <variable name="pa" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
