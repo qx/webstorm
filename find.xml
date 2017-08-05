@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="include app.js" />
-    <option name="defaultScopeName" value="include app.js" />
+    <option name="customScope" value="Selected Files" />
+    <option name="defaultScopeName" value="Selected Files" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="include app.js" />
+    <option name="SEARCH_SCOPE" value="Selected Files" />
   </component>
 </application>
