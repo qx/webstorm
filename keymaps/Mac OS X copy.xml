@@ -62,6 +62,12 @@
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift meta left" />
   </action>
+  <action id="EditorScrollBottom">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="g" />
+  </action>
+  <action id="EditorScrollTop">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="a" />
+  </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift meta 8" />
   </action>
@@ -118,6 +124,9 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="SyncSettings">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="s" />
   </action>
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="1" />
