@@ -66,4 +66,12 @@
       <option name="CoffeeScript" value="true" />
     </context>
   </template>
+  <template name="#*" value="###*&#10;# $desc$&#10;# @param $args1$&#10;# @param $args2$&#10;###" description="comment for coffeescript" toReformat="false" toShortenFQNames="true">
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
