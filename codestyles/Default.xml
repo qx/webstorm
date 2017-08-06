@@ -3,6 +3,10 @@
   <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
   <codeStyleSettings language="CoffeeScript">
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
-    <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="4" />
+    </indentOptions>
   </codeStyleSettings>
 </code_scheme>
