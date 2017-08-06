@@ -1,6 +1,9 @@
 <code_scheme name="Default">
   <option name="RIGHT_MARGIN" value="80" />
   <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
+  <JSCodeStyleSettings>
+    <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
+  </JSCodeStyleSettings>
   <codeStyleSettings language="CoffeeScript">
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <indentOptions>
