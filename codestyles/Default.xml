@@ -2,6 +2,7 @@
   <option name="RIGHT_MARGIN" value="80" />
   <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
   <codeStyleSettings language="CoffeeScript">
+    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
