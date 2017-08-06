@@ -5,50 +5,50 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="col" value="logger.info(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$, null, &quot;\t&quot;));" description="logger.info" toReformat="false" toShortenFQNames="true">
+  <template name="col" value="logger.info(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$, null, &quot;\t&quot;))" description="logger.info" toReformat="false" toShortenFQNames="true">
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cvn" value=" cc.vv.net.send(&quot;$huanpai$&quot;,$data$);" description="send socket request" toReformat="false" toShortenFQNames="true">
+  <template name="cvn" value=" cc.vv.net.send(&quot;$huanpai$&quot;,$data$)" description="send socket request" toReformat="false" toShortenFQNames="true">
     <variable name="huanpai" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="data" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="conl" value="console.log(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$, null, &quot;\t&quot;));" description="console.log" toReformat="false" toShortenFQNames="true">
+  <template name="conl" value="console.log(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$, null, &quot;\t&quot;))" description="console.log" toReformat="false" toShortenFQNames="true">
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="myi" value="log.info($p$);" description="mylog console" toReformat="false" toShortenFQNames="true">
+  <template name="myi" value="log.info($p$)" description="mylog console" toReformat="false" toShortenFQNames="true">
     <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="myd" value="log.debug($p$);" description="mylog console debug" toReformat="false" toShortenFQNames="true">
+  <template name="myd" value="log.debug($p$)" description="mylog console debug" toReformat="false" toShortenFQNames="true">
     <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="myt" value="log.trace($p$);" description="mylog console trace" toReformat="false" toShortenFQNames="true">
+  <template name="myt" value="log.trace($p$)" description="mylog console trace" toReformat="false" toShortenFQNames="true">
     <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="myw" value="log.warn($p$);" description="mylog console warn" toReformat="false" toShortenFQNames="true">
+  <template name="myw" value="log.warn($p$)" description="mylog console warn" toReformat="false" toShortenFQNames="true">
     <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="mye" value="log.error($p$);" description="mylog console error" toReformat="false" toShortenFQNames="true">
+  <template name="mye" value="log.error($p$)" description="mylog console error" toReformat="false" toShortenFQNames="true">
     <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
