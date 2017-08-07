@@ -74,4 +74,11 @@
       <option name="CoffeeScript" value="true" />
     </context>
   </template>
+  <template name="sg" value="Singleton.getInstance().$p$" description="Singleton.getInstance()" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
