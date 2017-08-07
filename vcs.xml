@@ -10,8 +10,16 @@
           <option name="url" value="https://github.com/wmora/nodejs-express-socketio-chatroom.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/baryon/tracer.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/nomiddlename/log4js-node.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="https://github.com/wmora/nodejs-express-socketio-chatroom.git" />
+    <option name="cloneParentDir" value="$USER_HOME$/Desktop" />
   </component>
 </application>

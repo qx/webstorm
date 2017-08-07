@@ -1,50 +1,83 @@
 <templateSet group="custom">
-  <template name="cl" value="cc.log(&quot;oyqx :=======&gt; &quot;+JSON.stringify($MESSAGE$))" description="cc.log" toReformat="false" toShortenFQNames="true">
+  <template name="cl" value="cc.log(&quot;oyqx :=======&gt; &quot;+JSON.stringify($MESSAGE$, null, &quot;\t&quot;))" description="cc.log" toReformat="false" toShortenFQNames="true">
     <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cn" value="cc.vv.utils.is_null($object$)" description="is_null?" toReformat="false" toShortenFQNames="true">
-    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="cnt" value="cc.vv.utils.not_null($object$)" description="object is not null" toReformat="false" toShortenFQNames="true">
-    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ca" value="$object$ === undefined || $object$ === null" description="standar not null" toReformat="false" toShortenFQNames="true">
-    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ob" value="Object.is($object1$,null)" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="object1" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="col" value="logger.info(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$));" description="logger.info" toReformat="false" toShortenFQNames="true">
+  <template name="col" value="logger.info(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$, null, &quot;\t&quot;))" description="logger.info" toReformat="false" toShortenFQNames="true">
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cvn" value=" cc.vv.net.send(&quot;$huanpai$&quot;,$data$);" description="send socket request" toReformat="false" toShortenFQNames="true">
+  <template name="cvn" value=" cc.vv.net.send(&quot;$huanpai$&quot;,$data$)" description="send socket request" toReformat="false" toShortenFQNames="true">
     <variable name="huanpai" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="data" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="conl" value="console.log(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$));" description="console.log" toReformat="false" toShortenFQNames="true">
+  <template name="conl" value="console.log(&quot;oyqx=======&gt;&quot;+ JSON.stringify($2$, null, &quot;\t&quot;))" description="console.log" toReformat="false" toShortenFQNames="true">
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="myi" value="log.info($p$)" description="mylog console" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="myd" value="log.debug($p$)" description="mylog console debug" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="myt" value="log.trace($p$)" description="mylog console trace" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="myw" value="log.warn($p$)" description="mylog console warn" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mye" value="log.error($p$)" description="mylog console error" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ifn" value="if !$pa$ and $pa$ != 0 and $pa$ != &quot;&quot;" description="空条件判断" toReformat="false" toShortenFQNames="true">
+    <variable name="pa" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="ifnn" value="if $pa$ or $pa$ == 0 or $pa$ == &quot;&quot;" description="非空条件判断" toReformat="false" toShortenFQNames="true">
+    <variable name="pa" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="#*" value="###*&#10;# $desc$&#10;# @param $args1$&#10;# @param $args2$&#10;###" description="comment for coffeescript" toReformat="false" toShortenFQNames="true">
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="sg" value="Singleton.getInstance().$p$" description="Singleton.getInstance()" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
