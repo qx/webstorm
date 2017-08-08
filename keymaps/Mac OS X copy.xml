@@ -32,6 +32,7 @@
   </action>
   <action id="Debugger.AddToWatch">
     <keyboard-shortcut first-keystroke="shift ctrl meta w" />
+    <keyboard-shortcut first-keystroke="meta e" />
   </action>
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToRight" />
@@ -99,6 +100,7 @@
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button2" />
   </action>
+  <action id="RecentFiles" />
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
@@ -136,6 +138,9 @@
   </action>
   <action id="TogglePresentationMode">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="f" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="Vcs.UpdateProject" />
   <action id="VimGotoDeclaration">
