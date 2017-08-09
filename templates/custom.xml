@@ -81,4 +81,27 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="gs" value="    &#10;set_$params$:($params$) -&gt;&#10;    @$params$ = $params$&#10;&#10;get_$params$: -&gt;&#10;    @$params$&#10;&#10;&#10;" description="getter and setter" toReformat="false" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mys" value="log.singleton($p$)" description="mylog console singleton" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mym" value="log.mj($p$)" description="mylog console mj" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="td" value="// TODO 不知道干什么的!" description="to do" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
