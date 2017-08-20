@@ -119,4 +119,15 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="mo" value="var assert = require('assert');&#10;&#10;describe('$miaoshu$', function() {&#10;  describe('#$submiaoshu$', function() {&#10;    it('$all_title_miaoshu$', function() {&#10;      assert.equal($except$, $actual$);&#10;    });&#10;  });&#10;});" description="mocha desc" toReformat="true" toShortenFQNames="true">
+    <variable name="miaoshu" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="submiaoshu" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="all_title_miaoshu" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="except" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
